@@ -19,8 +19,19 @@ num_burgers = int(input("How many Burgers? "))
 
 print ("You ordered" , num_burgers, "burgers")
 
-num_fries = input("How many fries? ")
+num_fries = int(input("How many fries? ") )
 print("OK, that's", num_fries, "french fries.")
 
 burger_total = num_burgers * burger_cost
 print("$", burger_total)
+fry_total = num_fries * fry_cost 
+meal_total = burger_total + fry_total
+
+
+
+
+print("-" * 20)
+print(num_burgers, format(burger_total,".2f") )
+print(num_fries, format(fry_total, ".2f") )
+print("-" * 20)
+print("Total\t\t$", format(meal_total, ".2f") )
