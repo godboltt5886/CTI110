@@ -29,7 +29,6 @@ meal_total = burger_total + fry_total
 
 
 
-
 print("-" * 20)
 print(num_burgers, format(burger_total,".2f") )
 print(num_fries, format(fry_total, ".2f") )
