@@ -1,0 +1,40 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "555D3742-0607-4434-B696-60B86C23B839",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Story Start",
+  "zoom": 1
+}
+
+
+:: Continue {"position":"1000,275","size":"100,100"}
+
+
+
+:: Open door 1 {"position":"1075,150","size":"100,100"}
+You entered door one and its a graveyard that seems fimiliar to you... (u get a strong chill down your spine)
+
+[[Continue]]
+[[Go Back->Story Start]] 
+
+
+
+:: Open door 2 {"position":"1225,150","size":"100,100"}
+
+
+
+:: Open door 3 {"position":"1350,150","size":"100,100"}
+
+
+
+:: Story Start {"position":"1200,25","size":"100,100"}
+Its Quiet.... and your in a dark room with 3 doors shinning white light above them (your tempted to open one of them) 
+
+[[Open door 1]]
+[[Open door 2]]
+[[Open door 3]]
